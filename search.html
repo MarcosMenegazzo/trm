@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>TRM</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+        <!-- Bootstrap Custom Theme -->
+        <link rel="stylesheet" href="./theme.css">
+
+        <!-- App Customs -->
+        <link rel="stylesheet" href="./utilities.css">
+        <link rel="stylesheet" href="./domain.css">
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <style>
+            @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">TRM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                </div>
+                <form class="d-flex w-50" action="./search.html">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+                  <a class="btn btn-outline-success" href="./search.html">Search</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <div class="container-fluid mt-5">
+            <div class="row">
+              <!-- Categorias encontradas -->
+              <div class="col-sm-4">
+                <!-- search categories -->
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a class="active">
+                    <div class="float-right">12</div>
+                    Tecnologias 
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="float-right">456</div>
+                    Dependências
+                  </li>
+                  <li class="list-group-item">
+                    <div class="float-right">6</div>
+                    Integrações
+                  </li>
+                </ul>
+              </div>
+              <!-- Resultados da busca -->
+              <div class="col-sm-8">
+                <h2>4.157 Resultados encontrados</h2>
+                <ul class="list-group">
+                  <!-- exemplo -->
+                  <li class="d-flex flex-justify-start border-top-1x mt-4">
+                    <div class="flex-shrink-0 me-3 mt-3">
+                      <i class="bi-collection"></i>
+                    </div>
+                    <div class="flex-auto">
+                      <h3 class="mt-2">
+                        <a href="./detail.html">Primeiro resultado</a>
+                      </h3>
+                      <div class="">Descrição em uma linha da tecnologia</div>
+                      <div>
+                        <span class="badge bg-primary rounded-pill">Tag expression 1</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 2</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 3</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 4</span>
+                      </div>
+                      <div class="mt-2 text-secondary fs-10 fw-lighter">Última atualização dd/mm/yyyy hh:mm:ss</div>
+                    </div>
+                  </li>
+                  <!-- exemplo -->
+                  <li class="d-flex flex-justify-start border-top-1x mt-4">
+                    <div class="flex-shrink-0 me-3 mt-3">
+                      <i class="bi-collection"></i>
+                    </div>
+                    <div class="flex-auto">
+                      <h3 class="mt-2">
+                        <a href="./detail.html">Segundo resultado</a>
+                      </h3>
+                      <div class="">Descrição em uma linha da tecnologia</div>
+                      <div>
+                        <span class="badge bg-primary rounded-pill">Tag expression 1</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 2</span>
+
+                      </div>
+                      <div class="mt-2 text-secondary fs-10 fw-lighter">Última atualização dd/mm/yyyy hh:mm:ss</div>
+                    </div>
+                  </li>
+                  <!-- exemplo -->
+                  <li class="d-flex flex-justify-start border-top-1x mt-4">
+                    <div class="flex-shrink-0 me-3 mt-3">
+                      <i class="bi-collection"></i>
+                    </div>
+                    <div class="flex-auto">
+                      <h3 class="mt-2">
+                        <a href="./detail.html">Mais um resultado</a>
+                      </h3>
+                      <div class="">Descrição em uma linha da tecnologia</div>
+                      <div>
+                        <span class="badge bg-primary rounded-pill">Tag expression 1</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 2</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 3</span>
+                      </div>
+                      <div class="mt-2 text-secondary fs-10 fw-lighter">Última atualização dd/mm/yyyy hh:mm:ss</div>
+                    </div>
+                  </li>
+                  <!-- exemplo -->
+                  <li class="d-flex flex-justify-start border-top-1x mt-4">
+                    <div class="flex-shrink-0 me-3 mt-3">
+                      <i class="bi-collection"></i>
+                    </div>
+                    <div class="flex-auto">
+                      <h3 class="mt-2">
+                        <a href="./detail.html">Nome do registro</a>
+                      </h3>
+                      <div class="">Descrição em uma linha da tecnologia</div>
+                      <div>
+                        <span class="badge bg-primary rounded-pill">Tag expression 1</span>
+
+                      </div>
+                      <div class="mt-2 text-secondary fs-10 fw-lighter">Última atualização dd/mm/yyyy hh:mm:ss</div>
+                    </div>
+                  </li>
+                  <!-- exemplo -->
+                  <li class="d-flex flex-justify-start border-top-1x mt-4">
+                    <div class="flex-shrink-0 me-3 mt-3">
+                      <i class="bi-collection"></i>
+                    </div>
+                    <div class="flex-auto">
+                      <h3 class="mt-2">
+                        <a href="./detail.html">Nome do registro</a>
+                      </h3>
+                      <div class="">Descrição em uma linha da tecnologia</div>
+                      <div>
+                        <span class="badge bg-primary rounded-pill">Tag expression 1</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 2</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 3</span>
+                        <span class="badge bg-primary rounded-pill">Tag expression 4</span>
+                      </div>
+                      <div class="mt-2 text-secondary fs-10 fw-lighter">Última atualização dd/mm/yyyy hh:mm:ss</div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+    </body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>TRM</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+        <!-- Bootstrap Custom Theme -->
+        <link rel="stylesheet" href="./theme.css">
+
+        <!-- App Customs -->
+        <link rel="stylesheet" href="./utilities.css">
+        <link rel="stylesheet" href="./domain.css">
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <style>
+            @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">TRM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">&nbsp;</a>
+                  </li>
+                </ul>
+                <form class="d-flex w-50" action="./search.html">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+                  <a class="btn btn-outline-success" href="./search.html">Search</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <!-- barra secundária -->
+          <ul class="nav nav-pills mt-3 ms-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Conceito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dependências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Integrações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Funcional</a>
+            </li>
+          </ul>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <!-- primeira coluna: conteudo do REAMED.md -->
+              <div class="col-sm-9">
+                <h1>Nome da tecnologia</h1>
+
+                <!-- badges: inseridas durante ou após o parse do README.md -->
+                <div class="badges mb-4">
+                  <div class="badge-trm">
+                    <span class="badge badge-trm-key">Status</span><span class="badge badge-trm-disponivel">Disponível para uso</span>
+                    <span class="badge badge-trm-key">Última atualização</span><span class="badge badge-trm-indisponivel">12-12-2018</span>
+                  </div>
+                </div>
+
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget dui posuere, finibus mauris vitae, tincidunt tellus. Nulla facilisi. Curabitur ac nulla elit. Aenean sollicitudin placerat mollis. Nulla commodo et ante quis commodo. Cras facilisis elit magna, in laoreet nunc vestibulum in. Integer elementum augue porta ante maximus tempus. Donec pulvinar felis sed libero pretium, quis sodales felis fringilla. Curabitur eget posuere turpis. Mauris rhoncus risus dolor, eget pretium dolor imperdiet ac. Nullam quis mollis sapien.  
+                </p>
+
+                <p class="text-justify">
+                  Curabitur hendrerit, arcu sed venenatis laoreet, felis ante viverra quam, ut egestas felis ante pharetra orci. Donec consequat tincidunt velit, a sagittis nibh suscipit vel. Nam non nunc ac nunc tempor lacinia nec ut nibh. Vestibulum molestie lorem et nulla vestibulum, eu feugiat nisl pulvinar. Vestibulum ornare, nunc tristique rutrum ornare, purus erat rhoncus justo, non suscipit metus dui consectetur enim. Ut mattis, quam volutpat rutrum venenatis, tortor leo gravida urna, vel dapibus arcu metus id mi. Sed commodo magna in eros semper consectetur. Nulla non odio eget nibh facilisis bibendum eget ut neque. Suspendisse quis ipsum justo. In sollicitudin felis sed nisi rutrum, eget fermentum orci vulputate. Aenean sodales arcu nec ipsum interdum, at pharetra tellus aliquam. Praesent dolor nisi, vestibulum non euismod eu, vehicula ac ante. Aenean accumsan lacus tincidunt dictum imperdiet. Suspendisse porta tortor eu pretium porta. Morbi vestibulum auctor malesuada. Etiam urna libero, imperdiet et nisi ut, pulvinar ullamcorper nisi.
+                </p>
+              
+                <h2>Referências</h2>
+                <ul>
+                  <li>Links para blog da arquitetura</li>
+                  <li>Links para Yammer</li>
+                  <li>Links para Central do Desenvolvedor</li>
+                </ul>
+                <!-- fim do README.md -->  
+              </div>
+              
+
+              <!-- segunda coluna: dados complementares -->
+              <div class="col-sm-3">
+                <h4>Sobre</h4>
+                <div class="mt-3 mb-3">
+                  <p>Descriçao de uma linha</p>
+                </div>
+                <h4>Versão</h4>
+                <div class="mt-3 mb-3">
+                  <p>2.5</p>
+                </div>
+                <h4 class="mt-3">Referência</h4>
+                <div class="mt-3 mb-3">
+                  <i class="bi-link-45deg"></i> <a href="#">Página do fornecedor</a>
+                </div>
+                <h4 class="mt-3">Tags</h4>
+                <div class="mt-3 mb-3">
+                  <span class="badge bg-primary rounded-pill">SAAS</span>
+                  <span class="badge bg-primary rounded-pill">Cloud</span>
+                  <span class="badge bg-primary rounded-pill">Processos de negócio</span>
+                  <span class="badge bg-primary rounded-pill">Saúde</span>
+                  <span class="badge bg-primary rounded-pill">Reembolso</span>
+                </div>
+                <h4 class="mt-3">Versões</h4>
+                <div class="mt-3 mb-3">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <a class="active">
+                      <div class="float-right">12</div>
+                      2.5 
+                      </a>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="float-right">456</div>
+                      1.5
+                    </li>
+                    <li class="list-group-item">
+                      <div class="float-right">6</div>
+                      1.2
+                    </li>
+                  </ul>
+                </div>
+
+                <h4 class="mt-3">Contato</h4>
+                <div class="mt-3 mb-3">
+                  <div class="contato-nome">Nome sobrenome</div> 
+                  <div class="contato-email">
+                    <a href="mailto:nome.sobrenome@dominio.com.br">nome.sobrenome@dominio.com.br</a>
+                  </div>
+                  <div class="contato-telefone">
+                    (xx) 99999-9999
+                  </div>
+                </<div class="mt-3 mb-3">
+              </div>
+
+
+            </div>
+          </div>
+          
+    </body>
+</html>

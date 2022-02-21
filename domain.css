@@ -1,0 +1,34 @@
+.badge-trm {
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.badge-trm-key {
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+}
+
+.badge-trm span {
+    border-radius: 0em;
+}
+
+.badge-trm span:nth-child(odd) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.badge-trm span:nth-child(even) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-right: .5em;
+}
+
+.badge-trm-indisponivel {
+    color:  white;
+    background-color: red;
+}
+
+.badge-trm-disponivel {
+    color:  white;
+    background-color: green;
+}
